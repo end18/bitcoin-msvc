@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "db_small", "db_small.vcproj", "{6A2849DA-8F7C-4B50-BDAE-AE7752EF8213}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "db_small", "db_small.vcxproj", "{6A2849DA-8F7C-4B50-BDAE-AE7752EF8213}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "db_static", "db_static.vcproj", "{4AB4958F-8DD0-49B5-8C02-014B5637C59A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "db_static", "db_static.vcxproj", "{4AB4958F-8DD0-49B5-8C02-014B5637C59A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wce_tpcb", "wce_tpcb.vcproj", "{F2CE670A-ABAE-414A-9A17-8079AB58613F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wce_tpcb", "wce_tpcb.vcxproj", "{F2CE670A-ABAE-414A-9A17-8079AB58613F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4AB4958F-8DD0-49B5-8C02-014B5637C59A} = {4AB4958F-8DD0-49B5-8C02-014B5637C59A}
 	EndProjectSection
@@ -57,5 +59,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36ED30F5-C61F-4F8F-AA1B-2E02F59B096B}
 	EndGlobalSection
 EndGlobal
